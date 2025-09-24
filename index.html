@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav class="navbar">
-      <div class="navdiv">
-        <img src="img/logo.avif" alt="Our Blooms" width="20%" height="20%" />
-        <ul>
-          <li><a href="#">gallery</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">contact</a></li>
-        </ul>
-      </div>
+    <nav class="navbar">
+        <div class="navdiv">
+            <img src="img/logo.avif" alt="Our Blooms" width="20%" height="20%" />
+            <ul>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <header>
@@ -33,14 +35,52 @@
                 </div>
                 <img class="flower" src="img/hero_flower.png" alt="Red Flower" />
             </div>
+
         </header>
-        <section id="who-we-are">
+        <section id="who-we-are" class="section__cta">
             <h2 class="section__title">Who We Are</h2>
             <p class="section__description">We're Our Blooms® and we're here to help you find your floral story.</p>
             <button class="section__button">About Us</button>
         </section>
+
+        <section id="gallery" class="section__gallery">
+            <img src="img/gallery1.webp" alt="">
+            <img src="img/gallery2.webp" alt="">
+            <img src="img/gallery3.webp" alt="">
+            <img src="img/gallery4.webp" alt="">
+            <img src="img/gallery5.webp" alt="">
+        </section>
+
+        <section class="section__list">
+            <div class="list__header">
+                <h2>WHAT WE DO</h2>
+                <p>We bring a touch of that simple magic into your world.</p>
+            </div>
+            <ol class="list__items">
+                <li class="list__item">
+                    <p>1</p>
+                    <img src="img/list1.webp" alt="Person with Bouquette of flowers">
+                    <h3>FLORAL INSTALLATIONS</h3>
+                    <p>Living art for homes, businesses, and events.</p>
+                </li>
+                <li class="list__item">
+                    <p>2</p>
+                    <img src="img/list2.webp" alt="Person making a Bouquette of flowers">
+                    <h3>NATIVE PLANT ARRANGEMENTS</h3>
+                    <p>Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations.</p>
+                </li>
+                <li class="list__item">
+                    <p>3</p>
+                    <img src="img/list3.webp" alt="Pink tulips">
+                    <h3>CUSTOM FLORAL CONCEPTS</h3>
+                    <p>Your vision, our blooms. We build arrangements that are both personal and exquisitely simple. Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations.</p>
+                </li>
+            </ol>
+        </section>
+
         <img src="img/Image 2048x3072.webp" alt="Purple flowers" class="main__image">
-        <section id="work-with-us">
+
+        <section id="work-with-us" class="section__cta">
             <h2 class="section__title">Work with us</h2>
             <p class="section__description">Discover how we can add a touch of natural beauty to your next event.</p>
             <button class="section__button">About Us</button>
