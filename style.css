@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,6 +14,28 @@ body {
     padding: 0 40px;
 }
 
+.navbar {
+  background-color: rgb(236, 202, 202);
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: black;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 400;
+}
 .hero_pic {
     width: min(100%, 1343px);
     height: auto;
