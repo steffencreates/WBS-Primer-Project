@@ -1,0 +1,62 @@
+.hero_pic {
+    width: min(100%, 1343px);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.flower {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.yellow_circle {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.flower_flex {
+    position: relative;
+    max-width: min(100%, 1143px);
+    margin: 50px auto 0;
+}
+
+.yellow_con {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    z-index: 1;
+    width: 188px;
+    height: 188px;
+}
+
+.circle_text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 18px;
+    text-align: center;
+    color: #2c2825;
+    font-family: 'Outfit', sans-serif;
+    gap: 10px;
+}
+
+.circle_text--label,
+.circle_text--tag {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+}
+
+.circle_text--headline {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+}
