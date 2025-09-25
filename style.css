@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* html {
@@ -24,30 +26,50 @@ body {
 }
 
 .navbar {
-
-    background-color: rgb(236, 202, 202);
-    padding-right: 50px;
-    padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #2c2825 1px solid;
+  height: 82px;
+  width: 100%;
 }
-
-.navdiv {
+.navigation-heading {
+    font-family: 'Caprasimo';
+    font-size: 28px;
+}
+ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 40px;
+    flex-shrink: 0;
 }
-
 li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
-
 li a {
-    color: black;
-    margin-right: 1rem;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: larger;
-    font-weight: 400;
+  color: #2c2825;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+li a:after {
+  content: "";
+  position: absolute;
+  background-color: gray;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+li a:hover {
+  color: rgb(211, 126, 140);
+}
+li a:hover:after {
+  width: 100%;
 }
 
 header {
